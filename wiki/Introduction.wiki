@@ -13,7 +13,7 @@ Greater fidelity with respect to ISCCP observations is represented by lower E va
 
 = Details =
 
-The code takes in a model's monthly-resolution ISCCP simulator cloud fraction histogram (clisccp), and computes its annual cycle.  This is differenced with the monthly-resolved cloud fraction histogram from ISCCP observations.  MODIS observations are also differenced with ISCCP observations, providing an (albeit imperfect) estimate of observational uncertainty.  The code also makes use of cloud radiative kernels of [http://www.atmos.washington.edu/~mzelinka/Zelinka_etal12a.pdf Zelinka et al. 2012] to compute E_SWCP and E_LWCP.  This calculation requires the model's monthly-resolved clear-sky upwelling and downwelling shortwave radiation at the surface (rsuscs and rsdscs).
+The code takes in a model's monthly-resolution ISCCP simulator cloud fraction histogram (clisccp), and computes its annual cycle.  This is differenced with the monthly-resolved cloud fraction histogram from ISCCP observations to compute E_TCA and E_CP.  MODIS observations are also differenced with ISCCP observations, providing an (albeit imperfect) estimate of observational uncertainty.  The code also makes use of cloud radiative kernels of [http://www.atmos.washington.edu/~mzelinka/Zelinka_etal12a.pdf Zelinka et al. 2012] to compute E_SWCP and E_LWCP.  This calculation requires the model's monthly-resolved clear-sky upwelling and downwelling shortwave radiation at the surface (rsuscs and rsdscs).
 
 We have provided the following netcdf files:
   * Annual cycles of the cloud fraction histograms from ISCCP and MODIS 
