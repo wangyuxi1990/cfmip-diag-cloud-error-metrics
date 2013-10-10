@@ -24,6 +24,6 @@ The user must update the directory paths to these files within the matlab script
 
 = References and Acknowledgements =
 
-  * Klein, S.A., Y. Zhang, M.D. Zelinka, R.N. Pincus, J.Boyle, and P.J. Gleckler, 2013: Are climate model simulations of clouds improving? An evaluation using the ISCCP simulator. J. Geophys. Res. 118, 1329-1342. doi: 10.1002/jgrd.50141.
-  * The GCM simulator-oriented ISCCP and MODIS cloud products that are used as the observational benchmarks are available here: [http://climserv.ipsl.polytechnique.fr/cfmip-obs/ CFMIP-OBS]
+  * [http://www.atmos.washington.edu/~mzelinka/Klein_etal13.pdf Klein, S.A., Y. Zhang, M.D. Zelinka, R.N. Pincus, J.Boyle, and P.J. Gleckler, 2013: Are climate model simulations of clouds improving? An evaluation using the ISCCP simulator. J. Geophys. Res. 118, 1329-1342. doi: 10.1002/jgrd.50141].
+  * The GCM simulator-oriented ISCCP and MODIS cloud products that are used as the observational benchmarks are available on the [http://climserv.ipsl.polytechnique.fr/cfmip-obs/ CFMIP-OBS page].
   * We acknowledge the World Climate Research Program’s Working Group on Coupled Modeling, which is responsible for CMIP. For CMIP, the U. S. Department of Energy’s Program for Climate Model Diagnosis and Intercomparison provides coordinating support and led development of software infrastructure in partnership with the Global Organization for Earth System Science Portals.
