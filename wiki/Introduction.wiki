@@ -1,0 +1,9 @@
+# This is an introduction page for the cloud error metrics
+
+= Introduction =
+
+
+
+= Details =
+
+The four scalar measures of the fidelity of model cloud simulations are described in Section 4 of [http://www.atmos.washington.edu/~mzelinka/Klein_etal13.pdf Klein et al. (2013)]. E_TCA measures fidelity in simulating total cloud amount. E_CP measures fidelity in simulating cloud-top pressure and optical depth in different categories of optically intermediate and thick clouds at high, middle, and low-levels of the atmosphere. The impacts on top-of-atmosphere shortwave and longwave radiation in the same categories used for E_CP are measured by E_SWCP and E_LWCP, respectively. Greater fidelity with respect to ISCCP observations is represented by lower E values.
