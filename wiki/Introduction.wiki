@@ -1,6 +1,6 @@
 # This is an introduction page for the cloud error metrics
 
-= Introduction =
+= Overview =
 
 This is a set of scalar measures of model fidelity in simulating clouds, where the observational "truth" comes from International Satellite Cloud Climatology Project (ISCCP) cloud fields.  The four scalar measures of the fidelity of model cloud simulations are described in Section 4 of [http://www.atmos.washington.edu/~mzelinka/Klein_etal13.pdf Klein et al. (2013)]. 
 
@@ -13,7 +13,7 @@ Greater fidelity with respect to ISCCP observations is represented by lower E va
 
 = Details =
 
-The code takes in a model's monthly-resolution ISCCP simulator cloud fraction histogram (clisccp), and computes its annual cycle.  This is differenced with the monthly-resolved cloud fraction histogram from ISCCP observations to compute E_TCA and E_CP.  MODIS observations are also differenced with ISCCP observations, providing an (albeit imperfect) estimate of observational uncertainty.  The code also makes use of cloud radiative kernels of [http://www.atmos.washington.edu/~mzelinka/Zelinka_etal12a.pdf Zelinka et al. 2012] to compute E_SWCP and E_LWCP.  This calculation requires the model's monthly-resolved clear-sky upwelling and downwelling shortwave radiation at the surface (rsuscs and rsdscs).
+The code takes in a model's monthly-resolution ISCCP simulator cloud fraction histogram (clisccp), and computes its annual cycle.  This is differenced with the monthly-resolved cloud fraction histogram from ISCCP observations to compute E_TCA and E_CP.  MODIS observations are also differenced with ISCCP observations, providing an (albeit imperfect) estimate of observational uncertainty.  The code also makes use of cloud radiative kernels of [http://www.atmos.washington.edu/~mzelinka/Zelinka_etal12a.pdf Zelinka et al. (2012)] to compute E_SWCP and E_LWCP.  This calculation requires the model's monthly-resolved clear-sky upwelling and downwelling shortwave radiation at the surface (rsuscs and rsdscs).
 
 We have provided the following netcdf files:
   * Annual cycles of the cloud fraction histograms from ISCCP and MODIS 
@@ -22,7 +22,7 @@ We have provided the following netcdf files:
 
 The user must update the directory paths to these files within the matlab script. These are indicated in the script by the comments :% USER: MODIFY THIS LINE"
 
-= References and Acknowledgements =
+= References & Acknowledgements =
 
   * Klein, S.A., Y. Zhang, M.D. Zelinka, R.N. Pincus, J.Boyle, and P.J. Gleckler, 2013: Are climate model simulations of clouds improving? An evaluation using the ISCCP simulator. J. Geophys. Res. 118, 1329-1342. doi: 10.1002/jgrd.50141.
   * The GCM simulator-oriented ISCCP and MODIS cloud products that are used as the observational benchmarks are available on the [http://climserv.ipsl.polytechnique.fr/cfmip-obs/ CFMIP-OBS page].
