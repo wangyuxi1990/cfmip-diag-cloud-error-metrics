@@ -1,5 +1,3 @@
-# This is an introduction page for the cloud error metrics
-
 = Overview =
 
 This is a set of scalar measures of model fidelity in simulating clouds, where the observational "truth" comes from International Satellite Cloud Climatology Project (ISCCP) cloud fields.  The four scalar measures of the fidelity of model cloud simulations are described in Section 4 of [http://www.atmos.washington.edu/~mzelinka/Klein_etal13.pdf Klein et al. (2013)]. 
